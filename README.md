@@ -1,6 +1,6 @@
 # Pinnacle Backtest API
 
-**The Pinnacle API is gone for individuals. Here is a Pinnacle odds API you can still backtest on.**
+**The Pinnacle API is gone for individuals. Here is a Pinnacle API you can still backtest on.**
 
 On 23 July 2025 Pinnacle closed its public API. The `/v1/odds` feed reached end of life on 1 January 2026, and access is now granted case by case to commercial partners and high-value accounts. Every homemade backtester built on that feed, every scraper, every `pinnacle.data`-style package went dark with it, and with them the one thing serious bettors relied on: testing an idea against the sharpest closing line in the market.
 
