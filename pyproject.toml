@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinnacle-backtest-api"
+version = "0.1.0"
+description = "The Pinnacle API is closed to individuals. Backtest betting strategies on 10 years of Pinnacle closing odds through Bet2Invest's API instead, in a few lines of Python."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Bet2Invest" }]
+keywords = [
+  "pinnacle",
+  "pinnacle-api",
+  "pinnacle-odds",
+  "historical-odds",
+  "sports-betting",
+  "backtesting",
+  "closing-line-value",
+  "odds-api",
+  "quant",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.5"]
+
+[project.urls]
+Homepage = "https://strategies.bet2invest.com"
+Documentation = "https://api.bet2invest.com/v1/public/docs"
+"Filter catalog" = "https://strategies.bet2invest.com/filters"
+
+[tool.setuptools]
+packages = ["pinnaclebacktest"]
